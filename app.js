@@ -24,7 +24,7 @@ app.use("/script",  express.static(__dirname + '/script'));
 
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+"/home.html");
+    res.sendFile(__dirname+"/index.html");
 })
 
 app.get('/create',(req,res)=>{
